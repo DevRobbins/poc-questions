@@ -2,5 +2,16 @@
     display: flex; flex-direction: row;
   }
   
-  .left, .right { width: 50%; }
+.left, .right { width: 50%; margin: 10px 15px;}
   
+.content { padding: 10px; background-color: white; transition: all .2s linear; cursor: pointer; }
+.content:hover {background-color: #ececec;}
+.content.selected { border: 2px solid red;}
+.controls-container { margin-top: 30px; display: flex; flex-direction: row;}
+.controls-container .btn { padding: 12px; border-radius: 10px; color: white; margin-right: 15px; cursor: pointer; transition: all .2s linear;}
+.controls-container .btn:hover { background-color: black !important; }
+.controls-container .btn:first-child { background-color: red; }
+.controls-container .btn:nth-child(2) { background-color: green; }
+.controls-container .btn:nth-child(3) { background-color: blue; }
+.d-none { display: none; }
+.question-wrapper { margin: 15px 0; }

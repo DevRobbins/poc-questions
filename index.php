@@ -13,7 +13,14 @@
     <div class="left grid">
         
     </div>
-        <div class="right questions">     </div>
+        <div class="right">     
+            <div class="questions"></div>
+            <div class="controls-container">
+                <div class="prev btn d-none" id="prev-question">Previous</div>
+                <div class="next btn" id="next-question">Next</div>
+                <div class="search btn d-none" id="search-question">Search</div>
+            </div>
+        </div>
     </div>
     </div>
 
